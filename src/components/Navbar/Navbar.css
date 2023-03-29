@@ -1,0 +1,54 @@
+.navbar-container{
+    background-color: #212123;
+    width: 12%;
+    height: 1000px;
+}
+
+.navbar-btn{
+    width: 95%;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #555557;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.navbar-btn:hover{
+    cursor: pointer;
+    background-color: #343541;
+}
+
+.btn-plus{
+    font-size: 16px;
+    margin: 5px;
+}
+.navbar-p{
+    color: #8D8D9F;
+    font-style: italic;
+    font-size: 12px;
+    margin: 10px;
+}
+.navbar-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-bottom ul{
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    border-top: 1px solid gray;
+    margin-left: 10px;
+    width: 90%;
+}
+.navbar-bottom ul li{
+    margin-top: 25px;
+}
+.icon{
+    margin-left: -20px;
+    margin-right: 5px;
+}
