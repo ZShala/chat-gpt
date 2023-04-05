@@ -10,32 +10,34 @@ const MainSection = () => {
       <div className="main-columns">
         <div className="col-1">
           <div>
-            <TbBrightnessDown className="icon"  size={40}  />
+            <TbBrightnessDown className="icon"  size={30}  />
             Examples
           </div>
-          <div>"Explain quantum computing in simple terms" &rarr;</div>
-          <div></div>
-          <div></div>
+          <div>"Explain quantum computing in simple terms?" &rarr;</div>
+          <div>"Got any creative ideas for a 10 years old birthday?" &rarr;</div>
+          <div>"How do I make an HTTP request in JavaScript?" &rarr;</div>
         </div>
         <div className="col-2">
           <div>
-            <RxLightningBolt className="icon" size={40} />
+            <RxLightningBolt className="icon" size={30} />
             Capabilities
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>Remembers what user said earlier in the conversation</div>
+          <div>Allows user to provide follow-up corrections</div>
+          <div>Trained to decline inappropriate requests</div>
         </div>
         <div className="col-3">
           <div>
-            <VscWarning className="icon"  size={40} />
+            <VscWarning className="icon"  size={30} />
             Limitations
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>May occasionally generate incorrect information</div>
+          <div>May occasionally produce harmful instructions or biased content</div>
+          <div>Limited knowledge of world and events after 2021</div>
         </div>
       </div>
+
+      <input type="text"/>
     </div>
   );
 };
