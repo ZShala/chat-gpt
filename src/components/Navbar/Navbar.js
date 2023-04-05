@@ -1,8 +1,8 @@
 import "./Navbar.css";
-import {BsPerson} from "react-icons/bs";
-import {TbBrightnessDown} from "react-icons/tb";
-import {GrShare} from "react-icons/gr";
-import {FiLogOut} from "react-icons/fi";
+import { BsPerson } from "react-icons/bs";
+import { TbBrightnessDown } from "react-icons/tb";
+import { RiShareBoxLine } from "react-icons/ri";
+import { FiLogOut } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -14,14 +14,26 @@ const Navbar = () => {
         History is temporarily unavailable. We're working to restore this
         feature as soon as possible.
       </p>
-      
+
       <div className="navbar-bottom">
-          <ul>
-              <li><BsPerson className="icon"/>Upgrade to Plus</li>
-              <li><TbBrightnessDown className="icon"/>Light mode</li>
-              <li><GrShare className="icon"/>Updates &amp; FAQ</li>
-              <li><FiLogOut className="icon"/>Log out</li>
-          </ul>
+        <ul>
+          <li>
+            <BsPerson className="icon" />
+            Upgrade to Plus <span className="new">NEW</span>
+          </li>
+          <li>
+            <TbBrightnessDown className="icon" />
+            Light mode
+          </li>
+          <li>
+            <RiShareBoxLine className="icon" />
+            Updates &amp; FAQ
+          </li>
+          <li>
+            <FiLogOut className="icon" />
+            Log out
+          </li>
+        </ul>
       </div>
     </div>
   );

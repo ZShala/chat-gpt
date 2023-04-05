@@ -1,7 +1,7 @@
 .navbar-container{
     background-color: #212123;
-    width: 12%;
-    height: 1000px;
+    width: 16%;
+    height: 900px;
 }
 
 .navbar-btn{
@@ -51,4 +51,13 @@
 .icon{
     margin-left: -20px;
     margin-right: 5px;
+}
+
+.new{
+    background-color: #FAE69E;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 50px;
+    font-size: 14px;
 }
